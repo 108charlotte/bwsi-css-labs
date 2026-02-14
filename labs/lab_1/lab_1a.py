@@ -8,9 +8,9 @@ with your name. Then, save the code, add it to the staging area, and commit it t
 def main():
     print("Hello World!")
 
-    name = "" # TODO: Insert your name between the double quotes
+    name = "Charlotte" # TODO: Insert your name between the double quotes
 
     print(f"{name}, Welcome to the CSS course!")
 
-if __name__ == "__main__":
+if __name__ == "__main__": # checks if current script being run as a main program, or if as a module (part of another program)
     main()
